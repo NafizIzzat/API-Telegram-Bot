@@ -1,5 +1,5 @@
-# Setup A Notification Bot With Telegram App
-Steps to create a simple notification bot using telegram's API. Deploy it in a group chat.
+# Set Up A Notification Bot With Telegram App
+Steps to create a simple notification bot using telegram's API, adding the bot to a group chat, deploying it to a free cloud server, letting it run forever till the day humans are replaced by actual AI bots.
 
 ## The Configuration
 1. Download Telegram App: [Telegram for MacOS](https://macos.telegram.org/)
