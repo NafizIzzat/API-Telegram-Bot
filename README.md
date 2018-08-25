@@ -49,9 +49,9 @@ Steps to create a simple notification bot using telegram's API, adding the bot t
 
     10. You now have a working API connecting you to your bot. Take note of your `"id": 237552982` in your JSON.
     11. Lets test and send a request straight through the API:
-        - `https://api.telegram.org/bot<token>/sendMessage?chat_id=237552982&text=Helloo`
-        - Replace <token> with the access token you received earlier.
-        - Replace <id> with the id from the JSON you received earlier.
+        - `https://api.telegram.org/bot<token>/sendMessage?chat_id=<id>&text=Helloo`
+        - Replace `<token>` with the access token you received earlier.
+        - Replace `<id>` with the id from the JSON you received earlier.
         - Check out the documentation for more info: [Telegram send message](https://core.telegram.org/bots/api#sendmessage)
         - You should get a JSON similar to: `{
   "ok": true,
@@ -75,13 +75,13 @@ Steps to create a simple notification bot using telegram's API, adding the bot t
   }
 }`
         - You should get a text and a notification from your bot in the Telegram App too.
-    12. The setup is complete now to code.
-    13. If you want to add the bot to a group, just add the bot by its username to any existing group.
-
+    12. If you want to add the bot to a group, just add the bot by its username to any existing group.
+    13. The setup is complete. Let's start coding.
+    
 ## Code A Basic Task
 1. Run the `requirements.txt`.
 2. Check out the code provided.
 
 ## Deploy To A Free Cloud Server (Heroku)
 
-##TO BE CONTINUED
+## TO BE CONTINUED
